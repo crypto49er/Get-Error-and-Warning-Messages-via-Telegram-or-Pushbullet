@@ -3,5 +3,5 @@ This modification will allow you to receive error or warning messages via Telegr
 Here's how to install it.
 
 1. Replace log.js in gekko/core with file in here.
-2. Replace telegrambot.js and pushbullet.js (or just one if you don't use both) with files in this repo. 
+2. Replace telegrambot.js and pushbullet.js in gekko/plugins (or just one if you don't use both) with files in this repo. 
 3. Start up Gekko command line as you normally do. Any warning or error message will now show up in terminal and in Telegram/Pushbullet.

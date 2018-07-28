@@ -1,8 +1,9 @@
 /*
 
   Lightweight logger, print everything that is send to error, warn
-  and messages to stdout (the terminal). If config.debug is set in config
-  also print out everything send to debug.
+  and messages to stdout (the terminal). This logger will also send
+  warn and error message to Telegram and Pushbullet. If config.debug 
+  is set in config also print out everything send to debug.
 
 */
 

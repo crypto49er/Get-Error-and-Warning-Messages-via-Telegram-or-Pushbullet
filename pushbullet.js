@@ -88,7 +88,7 @@ Pushbullet.prototype.checkResults = function(err) {
 };
 
 Pushbullet.prototype.logRemote = function (message) {
-    this.mail('Remote', message);
+    this.mail(config.pushbullet.tag, message);
 };
 
 module.exports = Pushbullet;
